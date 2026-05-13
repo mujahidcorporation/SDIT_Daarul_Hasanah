@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Modern Web Panel</title>
+
+  <!-- Logo Tab Browser -->
+  <link rel="icon" type="image/png" href="logo.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <div class="menu" id="menu">
+
+    <div class="card">
+
+      <!-- LOGO -->
+      <img src="img/image.png" class="menu-logo" alt="Logo">
+
+      <h1>ADMINISTRATOR</h1>
+      <p>Pilih menu website</p>
+
+      <button onclick="bukaWeb('https://mujahidcorporation.github.io/MangCleaning/')">
+        Persuratan
+      </button>
+
+      <button onclick="bukaWeb('https://mujahidcorporation.github.io/MangCleaning/')">
+        Inval Guru 
+      </button>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        © 2026 mujahidcorporation | All Rights Reserved
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- VIEWER -->
+  <div class="viewer" id="viewer">
+
+    <div class="navbar">
+
+      <div class="title">
+        SDIT DAARUL HASANAH
+      </div>
+
+      <button class="back-btn" onclick="kembaliMenu()">
+        ← Kembali
+      </button>
+
+    </div>
+
+    <iframe id="frame"></iframe>
+
+    <!-- FOOTER VIEWER -->
+    <div class="footer-viewer">
+      © 2026 mujahidcorporation
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
